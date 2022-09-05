@@ -1,73 +1,35 @@
----
-permalink: /index.html
----
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Проект создан с целью изучения библиотеки React.js  и  практики работы с API.
 
-## Available Scripts
+## API
+- https://swapi.dev (основное API)
+- https://starwars-visualguide.com (изображения для API)
 
-In the project directory, you can run:
+# Описание
+## Вкладка Home
+Можно выбрать любую из трех тем.
 
-### `npm start`
+## Вкладка People
+На 9 страницах расположены карточки с 82 персонажами медиафраншизы Звездные воины. Найти персонажа можно с помощью кнопок previous и next перелистывая постранично, или в адресной строке, указав номер страницы или персонажа.Нажав на персонажа переходим на страницу с информацией о нем.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![alt text](https://github.com/Ivanishkina-li/react-star-wars/blob/main/person.PNG)
+![alt text](https://github.com/Ivanishkina-li/react-star-wars/blob/main/people.PNG)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Вкладка Not Found
+Если ввести неверный адрес появится страница с ошибкой 404.
 
-### `npm test`
+![alt text](https://github.com/Ivanishkina-li/react-star-wars/blob/main/404.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Вкладка Fail
 
-### `npm run build`
+Если не удается загрузить данные с сервера автоматически переходим на страницу fail.
+Например ,как на скрине ,указав страницу с персонажами которой не существует (всего 9 страниц).
+![alt text](https://github.com/Ivanishkina-li/react-star-wars/blob/main/fail.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Вкладка Search
+Можно найти персонажа(ей) в поиске по буквам.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Вкладка favourites
+Нажав на звездочку рядом с персонажем добавляем в избранное(нажав повторно-удаляем из избранного). Нажав на вкладку избранное видим всех персонажей добавленных в избранное.
+![alt text](https://github.com/Ivanishkina-li/react-star-wars/blob/main/fav.PNG)
+![alt text](https://github.com/Ivanishkina-li/react-star-wars/blob/main/favourites.PNG)
